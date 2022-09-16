@@ -1,16 +1,18 @@
 # fullstack_dev_test_app
 
-A new Flutter project.
+App that list countries and cities
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+- Flutter (and all dependencies to run it)
+- Firebase CLI
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The first step is configure with your firebase using [this guide](https://firebase.google.com/docs/flutter/setup?platform=ios#prerequisites), then it will generate a *firebase_options.dart* file with all configs.
+After that, you can run the commands below:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
