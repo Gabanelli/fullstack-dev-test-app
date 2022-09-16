@@ -16,3 +16,10 @@ After that, you can run the commands below:
 flutter pub get
 flutter run
 ```
+
+## Screenshots
+
+<p align="center">
+  <img src="./docs/home.png" width="350" title="Countries page">
+  <img src="./docs/detail.png" width="350" alt="Cities page">
+</p>
